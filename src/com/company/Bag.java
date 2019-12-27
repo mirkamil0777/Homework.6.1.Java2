@@ -25,4 +25,9 @@ public class Bag<E extends Number, T extends Number> implements Bagable <T> {
         this.things1 = things1;
         this.things2 = things2;
     }
+
+    @Override
+    public T print() {
+        return null;
+    }
 }
